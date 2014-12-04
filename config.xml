@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.voidancerecords.com"
+        versionCode = ""
+        version     = "1.0" >
+
+	<name>Voidance Records</name>
+
+	<description></description>
+
+	<author href="https://www.splitanatom.com" email="info@voidancerecords.com">Split An Atom</author>
+
+	<gap:platform name="ios" />
+	
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+	
+	<!-- Add Icon, Splash screen and any PhoneGap plugin declaration here -->
+
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="com.phonegap.plugin.statusbar" />
+
+</widget>
